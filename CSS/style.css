@@ -35,16 +35,20 @@ a {
 
 .logo {
     height: 40px;
-    width: 40px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.4rem;
     font-weight: 600;
-    border-radius: 50%;
+    border-radius: 45%;
     background-color: #ffffff;
     color: #131313;
 
+}
+.logo:hover{
+  background-color: #864713;
+  color: #ffffff;
 }
 
 .menu{
@@ -59,7 +63,9 @@ a {
     letter-spacing: 0.3px;
     font-weight: 400;
     transition: all ease 0.3s;
-}
+    border-bottom: 1px solid transparent;
+  }
+  
 
 .social{
     display: flex;
@@ -70,16 +76,59 @@ a {
     color: #ffffff;
     margin-left: 20px;
     transition: all ease 0.3s;
-}
+  }
 
-.social a:hover,
+  .social a:hover,
 .menu li a:hover{
-    color: #864713;
-    transition: all ease 0.3s;
+  color: #864713;
+  transition: all ease 0.3s;
+  border-bottom: 1px solid #864713;
 }
 .social a:firstchild{
     margin-left: 0;
 }
+
+/* main-content part with the image  */
+.main-img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  text-align: center;
+  max-width: 500px;
+}
+.main-content span{
+  color: #8d94b4;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.main-content strong{
+  color: #f9f9f9;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.main-content h1{
+  font-size: 3rem;
+  color: #ffffff;
+  line-height: 3.4rem;
+  margin-top: 20px;
+}
+.main-content p{
+  color: #5e5e5e;
+  margin-top: 20px;
+  letter-spacing: 0.3px;
+}
+
 
 
 
