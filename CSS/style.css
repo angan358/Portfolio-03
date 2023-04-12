@@ -129,6 +129,63 @@ a {
   letter-spacing: 0.3px;
 }
 
+/* about section styling starts */
+#about-me{
+  max-width: 800px;
+  width: 90%;
+  margin: 50px auto;
+}
+#about-me strong{
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #8d94b4;
+}
+
+#about-me h2{
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height:4.4rem;
+  color: #272727;
+  margin-top: 20px;
+}
+.about-text{
+  margin-top: 30px;
+  max-width: 85%;
+  margin-left: auto;
+}
+.about-text h3{
+  font-size: 3rem;
+  font-weight: 300;
+  line-height:3.4rem;
+  color: #272727;
+  margin-bottom: 20px;
+}
+.about-text p{
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  line-height: 1.4rem;
+  letter-spacing: 0.3px;
+}
+.about-text a{
+  width: 180px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8d94b4;
+  color: #1a1a1a;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.about-text i{
+  margin-left: 10px;
+
+}
+
+
+
 
 
 
