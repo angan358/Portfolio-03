@@ -86,6 +86,8 @@ a {
   margin-left: 0;
 }
 
+
+
 /* main-content part with the image  */
 .main-img {
   height: 100px;
@@ -126,6 +128,9 @@ a {
   margin-top: 20px;
   letter-spacing: 0.3px;
 }
+
+
+
 
 /* about section styling starts */
 #about-me {
@@ -180,6 +185,9 @@ a {
 .about-text i {
   margin-left: 10px;
 }
+
+
+
 
 /* services part styling======================== */
 #our-services {
@@ -282,4 +290,18 @@ a {
 .service-box:hover {
   border: 1px solid #8d94b4;
 }
+.service-btn{
+  color: #c9c9c9;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0px 10px;
+}
+.service-btn a{
+  color: #8d94b4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* contact section starts=========== */
 
