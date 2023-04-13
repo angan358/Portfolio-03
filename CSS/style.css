@@ -304,4 +304,46 @@ a {
 }
 
 /* contact section starts=========== */
+#contact{
+  width: 90%;
+  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+  text-align: center;
+}
+.contact-me strong{
+  font-size: 1.2rem;
+  color: #8d94b4;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.contact-me h3{
+  color: #1d1d1d;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+
+}
+.contact-me p{
+  color:#252525;
+  font-weight: 500;
+  max-width: 550px;
+}
+.contact-me a{
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #8d94b43b;
+  color: #1a1a1a;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.contact-me a i{
+  margin-left: 10px;
+}
+
 
