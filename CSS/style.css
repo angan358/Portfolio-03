@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -344,6 +345,32 @@ a {
 }
 .contact-me a i{
   margin-left: 10px;
+}
+
+/* footer section ====================== */
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 950px;
+  width: 100%;
+  margin: 70px auto 0px auto;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #d8d8d8;
+}
+
+footer span{
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+footer .footer-logo{
+  color: #1f1f1f;
+  font-weight: 500;
+  letter-spacing:2px;
+  font-size: 1.3rem;
 }
 
 
